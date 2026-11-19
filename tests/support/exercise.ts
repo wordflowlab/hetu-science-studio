@@ -1,0 +1,5 @@
+import assert from 'node:assert/strict';import {selection,base,changed,refix,reviewTarget} from './scenario.ts';
+export const readingAction='export_reading';
+export async function exercise(c:any,r:any,key:()=>string){const s=selection(r);await c.invoke('check_science',s);await c.invoke('target_digest',{...s,target_kind:reviewTarget.kind,target_id:reviewTarget.id});
+const v=await c.invoke('evaluate',{...s,operand:{kind:'calculation',id:'speed'},unit:'km/h'});assert.equal(v.exact,'36/5');const claim=r.object.content.claims[0];await c.invoke('claim_basis',{...s,evidence_ids:claim.evidence_ids,quantity_ids:claim.quantity_ids,calculation_ids:claim.calculation_ids});await c.invoke('block_basis',{...s,claim_ids:['claim']});const d=changed(r.object.content);r=await c.invoke(d.action,{...base(r,key()),[d.field]:d.value});assert.deepEqual((await c.invoke('check_science',selection(r))).stale_claim_ids,['claim']);r=await refix(c,r,key());assert.deepEqual((await c.invoke('check_science',selection(r))).stale_block_ids,['limit']);assert.equal((await c.invoke('evaluate',{...selection(r),operand:{kind:'calculation',id:'speed'},unit:'km/h'})).exact,'9');
+return r;}
