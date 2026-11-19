@@ -1,0 +1,24 @@
+{
+  "retrieved_on": "2026-11-19",
+  "pages": [
+    {
+      "name": "Overleaf",
+      "url": "https://www.overleaf.com/",
+      "status": "200",
+      "exit_code": 0,
+      "sha256": "fca4e06b1dcd51e4e41093fc537058c551917cc76f4ba0b4b672683de22e9e13",
+      "title": "Overleaf, Online LaTeX Editor",
+      "scope": "公开页面；未登录、未执行产品业务"
+    },
+    {
+      "name": "Quarto",
+      "url": "https://quarto.org/",
+      "status": "200",
+      "exit_code": 0,
+      "sha256": "be937a6f5d8cca269b6ffda7db338b88b08c3a5f1ebd33a20bc927f1e850211e",
+      "title": "Quarto",
+      "scope": "公开页面；未登录、未执行产品业务"
+    }
+  ],
+  "limits": "可访问页面不等于已体验产品；HTTP失败保留原状态。"
+}

@@ -1,0 +1,70 @@
+{
+  "retrieved_on": "2026-11-19",
+  "sources": [
+    {
+      "repository": "https://github.com/josdejong/mathjs",
+      "commit": "1847c3344a0a63ad4bd5b2f2b97e7f4f05f32566",
+      "license": "Apache-2.0",
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "91d5f1a6f567c59c54de64a8be66d83a1ed7ea2f8cddee481def7b8507ac5d6b",
+          "read_lines": [
+            1,
+            65
+          ]
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "3b0f65a9308588e12b619b2f05c788b4a5f41220006ce563b826b0feb489fd26",
+          "read_lines": [
+            1,
+            20
+          ]
+        },
+        {
+          "path": "src/type/unit/Unit.js",
+          "sha256": "897cefcd74023d5f3b5c261619b381177f90991c282297cbd1d1f85d7db99872",
+          "read_lines": [
+            1,
+            65
+          ]
+        }
+      ],
+      "use": "只读研究，未运行上游脚本或复制实现"
+    },
+    {
+      "repository": "https://github.com/citation-js/citation-js",
+      "commit": "d2d069124ed026bbc99cb46fe70044b5d0e0596c",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "f38539b36787cf0ea26d7096a398828018cca1cb709b9cca80e63c30ffcb66df",
+          "read_lines": [
+            1,
+            65
+          ]
+        },
+        {
+          "path": "LICENSE.md",
+          "sha256": "f1b1ce790ec4a574930a32b6d684e0a69a3abe044655bc4ba2841ec12ad52705",
+          "read_lines": [
+            1,
+            21
+          ]
+        },
+        {
+          "path": "packages/core/src/Cite/index.js",
+          "sha256": "b9a8ff39f78cc8905c45b95b0ccdf57ae2b354c49bee6904dd6508560aa1874f",
+          "read_lines": [
+            1,
+            65
+          ]
+        }
+      ],
+      "use": "只读研究，未运行上游脚本或复制实现"
+    }
+  ],
+  "adoption": "Math.js展示单位与量纲分离，Citation.js展示来源与输出分离。本包只实现明确有界的十进制有理数及有限单位，不嵌入任意表达式执行器，不复制大型数学库或把引文格式视为事实认证。"
+}
