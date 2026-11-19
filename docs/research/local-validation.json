@@ -9,8 +9,8 @@
     },
     {
       "path": "output/cross.log",
-      "sha256": "69a50a6bb503e3f8ce51ee3729f09e803a3616135f570834a52da670b4b8cbc6",
-      "passed_marker": false,
+      "sha256": "ed437ba7fae8fc76d480c47aaedd4935471ae018fa808f952ad935fb418e79d8",
+      "passed_marker": true,
       "failure_marker": false
     }
   ],

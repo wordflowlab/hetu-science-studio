@@ -1,0 +1,8 @@
+{
+  "release": "https://github.com/wordflowlab/hetu-science-studio/releases/tag/v0.1.0",
+  "source_commit": "e855eee242a271ec2799759962a4a2f52dc31ec4",
+  "archive_sha256": "a3bfca7cf3a359d99cf18fb0647c74e710e38b4ac4c554ad713d45b93a3f1457",
+  "package_sha256": "4bf88dca36aa8959e4e8559e431220865558e69f8b4fddaf410f8ac1f831f345",
+  "files_byte_identical": 18,
+  "verified": true
+}
