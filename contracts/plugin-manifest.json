@@ -2612,8 +2612,7 @@
           },
           "required": [
             "object_id",
-            "operand",
-            "unit"
+            "operand"
           ]
         }
       },

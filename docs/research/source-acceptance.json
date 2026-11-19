@@ -1,10 +1,10 @@
 {
   "recorded_at": "2026-11-19",
-  "unit_tests": 31,
+  "unit_tests": 32,
   "unit_failures": 0,
   "machine_actions": 30,
-  "package_sha256": "da465983ccd365618fb9e00a74c112e062383fd16c14da9d6ca1dfaeb6d504b6",
-  "unit_log_sha256": "fd22bfd1e02497b2a43de50583a3c09cbdc7ca1870577868fbe2fd9149430ff5",
+  "package_sha256": "4bf88dca36aa8959e4e8559e431220865558e69f8b4fddaf410f8ac1f831f345",
+  "unit_log_sha256": "1ff4d96b168b7fabf0183107ac24f8842d7ef4796f529bd8bfd5b8ca9ca74466",
   "source_type_check": true,
   "manifest_and_sdk_digests": true,
   "runtime_scope": "源码及本地固定候选包，正式安装验收另行取证"

@@ -31,7 +31,7 @@
 | check_science | 检查专业关系与过期依据 | object_id | read |
 | claim_basis | 核对主张依据 | object_id, evidence_ids, quantity_ids, calculation_ids | read |
 | block_basis | 核对文章段落依据 | object_id, claim_ids | read |
-| evaluate | 精确计算及量纲 | object_id, operand, unit | read |
+| evaluate | 精确计算及量纲 | object_id, operand | read |
 | export_reading | 导出专业阅读本 | object_id | read |
 | export_review | 导出完整审核本 | object_id | read |
 
