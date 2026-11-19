@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-19T09:51:00.675Z",
+  "plugin_id": "org.wordflowlab.science-studio",
+  "package_sha256": "4bf88dca36aa8959e4e8559e431220865558e69f8b4fddaf410f8ac1f831f345",
+  "host_version": "hetu 0.12.6",
+  "surface_origin": "fixed-packaged-host",
+  "platform": "darwin",
+  "architecture": "arm64",
+  "tabs": [
+    "文章阅读",
+    "资料与数量",
+    "计算与类比",
+    "主张与复核",
+    "科普交付"
+  ],
+  "geometry": [
+    {
+      "theme": "light",
+      "width": 1360,
+      "header_height": 58.09375,
+      "reading_top": 273.375
+    },
+    {
+      "theme": "light",
+      "width": 760,
+      "header_height": 58.09375,
+      "reading_top": 273.375
+    },
+    {
+      "theme": "dark",
+      "width": 1360,
+      "header_height": 58.09375,
+      "reading_top": 273.375
+    },
+    {
+      "theme": "dark",
+      "width": 760,
+      "header_height": 58.09375,
+      "reading_top": 273.375
+    }
+  ],
+  "empty_state": true,
+  "professional_actions": true,
+  "artifact_files": [
+    "科普写作审核本.html",
+    "科普写作阅读本.txt"
+  ],
+  "themes": [
+    "light",
+    "dark"
+  ],
+  "widths": [
+    1360,
+    760
+  ],
+  "reduced_transparency": true,
+  "CAS_preserves_input": true,
+  "explicit_rebase": true,
+  "close_reopen": true,
+  "dirty_buffer_restore": true,
+  "page_errors": [],
+  "limits": [
+    "原生窗口材质、系统输入法及Windows/Linux未由本测试证明"
+  ]
+}

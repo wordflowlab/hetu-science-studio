@@ -1,0 +1,199 @@
+{
+  "recorded_at": "2026-11-19",
+  "entry": "当前Codex经公开0.12.6 CLI连续操作；既有MCP热发现另行登记",
+  "host_version": "0.12.6",
+  "work_ref": {
+    "workspace_id": "workspace_01abb9b1-8e4a-46ac-a8ee-82d200f35875",
+    "kind": "novel",
+    "object_id": "novel_c070a2bc-10f4-4b55-a61b-981caa46f1ac"
+  },
+  "package_sha256": "4bf88dca36aa8959e4e8559e431220865558e69f8b4fddaf410f8ac1f831f345",
+  "original": {
+    "object_id": "ext_e46f8939-9847-4308-89c0-acf2bd24b961",
+    "revision": 1,
+    "sha256": "7b9b5cdbb743b51d5c0fdaa5d5ab437bf5fe15e53ee50bf2bbf01ca1e19cd741"
+  },
+  "revised": {
+    "object_id": "ext_e46f8939-9847-4308-89c0-acf2bd24b961",
+    "revision": 4,
+    "sha256": "11835da20cdf5962d783bb19978707d67ccba43cdbf36e91c6d55b0ebe2ab51a"
+  },
+  "source_ref": {
+    "kind": "resource",
+    "work_ref": {
+      "workspace_id": "workspace_01abb9b1-8e4a-46ac-a8ee-82d200f35875",
+      "kind": "novel",
+      "object_id": "novel_c070a2bc-10f4-4b55-a61b-981caa46f1ac"
+    },
+    "resource_id": "resource_3ff6d5ce-c217-4def-be61-090f813446bb",
+    "revision": 1,
+    "sha256": "6f019f2a8ed8d47e731d5d0ab08a50b02ffc7616d1123d036bb893ace8b3fa2f"
+  },
+  "original_operation_preserved": true,
+  "previous_revision_preserved": true,
+  "old_snapshot_preserved": false,
+  "other_states_preserved": 38,
+  "existing_objects_read": 0,
+  "checks_before_review": {
+    "basis_ref": {
+      "object_id": "ext_e46f8939-9847-4308-89c0-acf2bd24b961",
+      "owner_plugin_id": "org.wordflowlab.science-studio",
+      "revision": 2,
+      "sha256": "32c6c993cf156d8586fdf2f3a9b1f0a0a65f39cf047af1381193e8b07b5dee24"
+    },
+    "calculations": [
+      {
+        "denominator": "2",
+        "dimensions": {
+          "length": 1,
+          "mass": 0,
+          "time": -1
+        },
+        "exact": "5/2",
+        "id": "speed",
+        "note": "精确数学与量纲检查不认证科学解释。",
+        "numerator": "5",
+        "title": "平均速度",
+        "unit": "SI"
+      }
+    ],
+    "note": "计算、证据和科学解释分别核对。",
+    "project_ref": {
+      "object_id": "ext_e46f8939-9847-4308-89c0-acf2bd24b961",
+      "revision": 2,
+      "sha256": "32c6c993cf156d8586fdf2f3a9b1f0a0a65f39cf047af1381193e8b07b5dee24"
+    },
+    "stale_block_ids": [
+      "intro",
+      "limit"
+    ],
+    "stale_claim_ids": [
+      "claim"
+    ],
+    "stale_note_ids": [
+      "note"
+    ]
+  },
+  "checks_after": {
+    "basis_ref": {
+      "object_id": "ext_e46f8939-9847-4308-89c0-acf2bd24b961",
+      "owner_plugin_id": "org.wordflowlab.science-studio",
+      "revision": 4,
+      "sha256": "11835da20cdf5962d783bb19978707d67ccba43cdbf36e91c6d55b0ebe2ab51a"
+    },
+    "calculations": [
+      {
+        "denominator": "2",
+        "dimensions": {
+          "length": 1,
+          "mass": 0,
+          "time": -1
+        },
+        "exact": "5/2",
+        "id": "speed",
+        "note": "精确数学与量纲检查不认证科学解释。",
+        "numerator": "5",
+        "title": "平均速度",
+        "unit": "SI"
+      }
+    ],
+    "note": "计算、证据和科学解释分别核对。",
+    "project_ref": {
+      "object_id": "ext_e46f8939-9847-4308-89c0-acf2bd24b961",
+      "revision": 4,
+      "sha256": "11835da20cdf5962d783bb19978707d67ccba43cdbf36e91c6d55b0ebe2ab51a"
+    },
+    "stale_block_ids": [
+      "limit"
+    ],
+    "stale_claim_ids": [],
+    "stale_note_ids": [
+      "note"
+    ]
+  },
+  "upstream_basis": [
+    {
+      "owner_plugin_id": "org.wordflowlab.standup-studio",
+      "object_id": "ext_180d3f15-44cc-4f3a-bf83-0954741cdb43",
+      "revision": 5,
+      "sha256": "5242472b345ee708453458707d41fd1c6bccaf95fe25c6b00b91dd336b34b780"
+    }
+  ],
+  "adopted": false,
+  "finalized": false,
+  "fixture": "原创虚构素材，不认证真人排演、观众反馈、科学解释或游戏体验",
+  "original_work_fixed_ref": {
+    "revision_ref": {
+      "revision": 1
+    },
+    "sha256": "6577f6a191a8b6889c1c769db9f18e6afeb47e07359c92b47f259514ad33aaaf",
+    "work_ref": {
+      "kind": "novel",
+      "object_id": "novel_c070a2bc-10f4-4b55-a61b-981caa46f1ac",
+      "workspace_id": "workspace_01abb9b1-8e4a-46ac-a8ee-82d200f35875"
+    }
+  },
+  "original_work_record_unchanged": true,
+  "continuation": {
+    "task_kind": "chapter_draft",
+    "fixed_input_refs": [
+      {
+        "kind": "resource",
+        "work_ref": {
+          "workspace_id": "workspace_01abb9b1-8e4a-46ac-a8ee-82d200f35875",
+          "kind": "novel",
+          "object_id": "novel_c070a2bc-10f4-4b55-a61b-981caa46f1ac"
+        },
+        "resource_id": "resource_3ff6d5ce-c217-4def-be61-090f813446bb",
+        "revision": 1,
+        "sha256": "6f019f2a8ed8d47e731d5d0ab08a50b02ffc7616d1123d036bb893ace8b3fa2f"
+      },
+      {
+        "kind": "resource",
+        "work_ref": {
+          "workspace_id": "workspace_01abb9b1-8e4a-46ac-a8ee-82d200f35875",
+          "kind": "novel",
+          "object_id": "novel_c070a2bc-10f4-4b55-a61b-981caa46f1ac"
+        },
+        "resource_id": "resource_10c0cf94-5290-4b1b-9dde-62b6e22102ae",
+        "revision": 1,
+        "sha256": "57223ef68ed8064c41bd309e52c589dbca89d669e7716ee170ab0594834e550b"
+      }
+    ],
+    "context_full_bytes_verified": true,
+    "candidate_saved_and_read": true,
+    "adopted": false
+  },
+  "previous_candidate_package_sha256": "da465983ccd365618fb9e00a74c112e062383fd16c14da9d6ca1dfaeb6d504b6",
+  "final_candidate_upgrade": {
+    "old_revisions_and_operation_preserved": true,
+    "other_plugin_states_preserved": 39,
+    "methods_byte_verified": 3
+  },
+  "mcp": {
+    "connected_host_version": "0.12.3",
+    "final_package_hot_discovered": true,
+    "read_revision": 4,
+    "revised_sha256_verified": true,
+    "methods": [
+      {
+        "resource": "SKILL.md",
+        "status": "succeeded",
+        "sha256": "c0205e8130881fd7224b962ef4838d2c814afcc14fe74cd91994530a58b6248f",
+        "matches_final_package": true
+      },
+      {
+        "resource": "references/workflows.md",
+        "status": "succeeded",
+        "sha256": "b1fac8c169b2b37ab94ee9e5284687ecde1ba7215a5edead9e2d4f77bf67c603",
+        "matches_final_package": true
+      },
+      {
+        "resource": "references/operations.md",
+        "status": "succeeded",
+        "sha256": "29d6f5e1f05057efa61495485bce9c73547065d0c69d91975cafa8691542dbc2",
+        "matches_final_package": true
+      }
+    ]
+  }
+}
